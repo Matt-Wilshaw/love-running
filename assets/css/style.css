@@ -50,15 +50,17 @@ h1 {
     letter-spacing: 4px;
     list-style: none;
 }
-#menu > li {
+
+#menu>li {
     margin-bottom: 1em;
 }
 
-.active{
+.active {
     border-bottom: 1px solid #3a3a3a;
 }
+
 /* Navbar styles with dropdown toggle*/
-nav{
+nav {
     position: absolute;
     background-color: #ffffff;
     width: 100%;
@@ -68,14 +70,20 @@ nav{
     display: none;
     top: 100%;
 }
+
 /*Nav Toggle*/
 #nav-toggle:checked~nav {
     display: block;
-    
+
 }
+
 #nav-toggle {
     display: none;
-    
+
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 /*Main content*/
