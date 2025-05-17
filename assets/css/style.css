@@ -95,8 +95,17 @@ main {
 }
 
 /*Footer*/
-footer {
-    background-color: orange;
+#social-networks {
+    text-align: center;
+    padding: 20px o;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 
 /*media query: tablets and larger (768px and up)*/
@@ -104,7 +113,7 @@ footer {
 
     /*Header*/
 
-    nav{
+    nav {
 
         display: block;
         position: relative;
@@ -112,37 +121,40 @@ footer {
         width: fit-content;
         padding-right: 1rem;
     }
-#menu{
-    display: flex;
-}
-#menu > li {
-    padding-left: 1rem;
-}
-.nav-toggle-label{
-    display: none;
-}
 
-#logo{
-    font-size: 280%;
-    line-height: 75px;
-    margin: 0 0.5rem;
-}
+    #menu {
+        display: flex;
+    }
 
-/*Main content*/
-main {
-    /*push main content down*/
-    margin-top: 79px;
-}
+    #menu>li {
+        padding-left: 1rem;
+    }
 
-}
-/*media query: tablets and larger (768px and up)*/
-@media screen and (min-width: 992px) {
+    .nav-toggle-label {
+        display: none;
+    }
 
-   #menu a:hover{
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
 
-       border-bottom: 1px solid #3a3a3a;
-        
+    /*Main content*/
+    main {
+        /*push main content down*/
+        margin-top: 79px;
     }
 
 }
-    
+
+/*media query: tablets and larger (768px and up)*/
+@media screen and (min-width: 992px) {
+
+    #menu a:hover {
+
+        border-bottom: 1px solid #3a3a3a;
+
+    }
+
+}
